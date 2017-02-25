@@ -50,5 +50,3 @@ test:
 production:
   <<: *default
   database: rails5-1-0-beta_production
-  username: rails5-1-0-beta
-  password: <%= ENV['RAILS5-1-0-BETA_DATABASE_PASSWORD'] %>
